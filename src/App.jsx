@@ -1,9 +1,11 @@
 import NavBar from "./components/navBar";
+import CartContainer from "./components/CartContainer";
 
 function App() {
   return (
     <main>
       <NavBar />
+      <CartContainer />
     </main>
   );
 }
